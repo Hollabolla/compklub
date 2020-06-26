@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Computerklubben</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <nav class="topnav">
+            <article>
+                <a href="index.html" class="navleft">COMPUTER KLUBBEN</a>
+                <article class="topnav-right">
+                    <a href="#aktiviteter">AKTIVITETER</a>
+                    <a href="#medlem">MEDLEM</a>
+                    <a href="#info">OM OS</a>
+                </article>
+            </article>
+        </nav>
+    </header>
+    <main class="wrapper">
+        <section class="welcome">
+            <article class="welcomeimg">
+                <video src="./images/Film.mp4" class="welcomegif" autoplay="" loop="" muted=""></video>
+            </article>
+        </section>
+        <section class="info" id="info">
+            <h1>COMPUTERKLUBBEN:</h1>
+            <p>Computerklubben har eksisteret i 2år</p>
+            <p>Vi tilbyder de unge (13+) et sted, hvor de kan komme med deres venner efter skole og i weekenden for at game.</p>
+            <p>Vi holder også Lan-party hvor der afholdes turneringer med præmier.</p>
+        </section>
+        <section class="aktiviteter" id="aktiviteter">
+            <h1>AKTIVITETER</h1>
+            <h3>Aktiviteter i denne uge:</h3>
+            <article class="card">
+                <img src="./images/fortlan.png" alt="fortnite lan">
+                <article class="boxx">
+                        <h4>Torsdag: Fortnite turnering</h4>  
+                        <button class="collapsible">Læs mere om eventen!</button>
+                        <dl class="content"> 
+                                <dt>Spil:</dt>
+                                <dd>Fortnite</dd>
+                                <dt>Turnering format:</dt>
+                                <dd>1v1 og Battle Royale</dd>
+                                <dt>Præmier:<dt>
+                                <dd>Ja!</dd>
+                        </dl>
+                </article>
+            </article>
+            <article class="card">
+                <img src="./images/lollan.png" alt="lol cover">
+                <article class="boxx">
+                    <h4>Fredag: LoL turnering</h4>
+                    <button class="collapsible">Læs mere om eventen!</button>  
+                    <dl class="content"> 
+                            <dt>Spil:</dt>
+                            <dd>Leagueof Legends </dd>
+                            <dt>Turnering format:</dt>
+                            <dd>hold mod hold, 5 mod 5</dd>
+                            <dt>Præmier:</dt>
+                            <dd>Ja!</dd>
+                    </dl>
+                </article>
+            </article>
+            <article class="card">
+                    <img src="./images/valorantlan.png" alt="valorant cover">
+                    <article class="boxx">
+                        <h4>Lørdag: Valorant turnering</h4>
+                        <button class="collapsible">Læs mere om eventen!</button>  
+                        <dl class="content"> 
+                                <dt>Spil:</dt>
+                                <dd>Valorant</dd>
+                                <dt>Turnering format:</dt>
+                                <dd>1 mod 1</dd>
+                                <dt>Præmier:</dt>
+                                <dd>Nej!</dd>
+                        </dl>
+                    </article>
+                </article>
+        </section>
+        <section class="kommende">
+            <h3>Aktiviteter i den kommende uge:</h3>
+            <article class="card">
+                <img src="./images/lollan.png" alt="lol cover" class="lanimg">
+                <article class="boxx">
+                    <h4>Fredag, Lørdag & Søndag: LAN!!!!</h4>
+                    <button class="collapsible">Læs mere om eventen!</button>  
+                    <dl class="content"> 
+                            <dt>Sted:</dt>
+                            <dd>Computerklubben</dd>
+                            <dt>Spisning inkluderet:</dt>
+                            <dd>Ja!</dd>
+                            <dt>Præmier:</dt>
+                            <dd>JA, masser!</dd>
+                            <dt>Så er det tid til vores LAN-party igen</dt>
+                            <dd>der vil være masser af turneringer med masser af præmier på højkant.</dd>
+                    </dl>
+                </article>
+            </article>
+        </section>
+        <section class="medlem" id="medlem">
+            <h1>MEDLEMSKAB:</h1>
+            <h2>Du er også velkommen til at komme forbi Computerklubben inden du melder dig til!</h2>
+                <article class="container">
+                    <form>
+                        <label for="Email" class="colr">Email:</label>
+                        <input type="text" id="Email" name="email" placeholder="Email">
+                          
+                        <label for="Fname" class="colr">Fulde Navn:</label>
+                        <input type="text" id="Fname" name="Fname" placeholder="Fulde Navn">
+
+                        <label for="adres" class="colr">Adresse:</label>
+                        <input type="text" id="adres" name="adresse" placeholder="Adresse">
+                          
+                        <label for="tlf" class="colr">Telefon Nummer:</label>
+                        <input type="text" id="tlf" name="Telefon nummer" placeholder="Telefon Nummer">
+                            
+                        <input type="submit" value="Submit">
+                    </form>
+                </article>
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li>Kontakt Os på:</li>
+            <li>Telefon: +45 11 11 11 11</li>
+            <li>Adresse: eksempelvej 11</li>
+            <li>Email: eksempel@eksempel.dk</li>
+        </ul>
+    </footer>
+    <script src="java.js"></script>
+</body>
+</html>
